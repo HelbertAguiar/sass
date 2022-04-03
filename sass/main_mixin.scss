@@ -1,0 +1,22 @@
+@mixin codigocss($cor, $tamanho, $margintop){
+    color: $cor;
+    font-size: $tamanho;
+    margin-top: $margintop;
+}
+
+// no SASS permite mixins(funcoes) de css
+
+.box{
+    
+    height: 25vh;
+
+    .texto1{
+        @include codigocss(green, 1.2rem, 10vh)
+    }
+    
+    .texto2{
+        @include codigocss(blue, 2.4rem, 0)
+    }
+    
+}
+

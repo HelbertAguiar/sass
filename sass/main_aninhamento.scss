@@ -1,0 +1,24 @@
+$cor1 : green;
+$cor2 : blue;
+$tamanho1: 1.2rem;
+$tamanho2: 2.2rem;
+
+// no SASS permite aninhamento de classes
+
+.box{
+    
+    height: 25vh;
+
+    .texto1{
+        color: $cor1;
+        font-size: $tamanho1;
+        margin-top: 10vh;
+    }
+
+    .texto2{
+        color: $cor1;
+        font-size: $tamanho2;
+    }
+
+}
+

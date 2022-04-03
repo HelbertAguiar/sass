@@ -1,0 +1,19 @@
+$cor1 : green;
+$cor2 : blue;
+$tamanho1: 1.2rem;
+$tamanho2: 2.2rem;
+
+.texto1{
+    color: $cor1;
+    font-size: $tamanho1;
+}
+
+.texto2{
+    color: $cor1;
+    font-size: $tamanho2;
+}
+
+.texto3{
+    color: $cor2;
+    font-size: $tamanho2;
+}

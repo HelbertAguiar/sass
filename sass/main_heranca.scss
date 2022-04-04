@@ -1,0 +1,30 @@
+$cor1 : green;
+$cor2 : blue;
+$tamanho1: 1.2rem;
+$tamanho2: 2.2rem;
+
+.geralCourier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.geralCourier2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+.texto1{
+    color: $cor1;
+    font-size: $tamanho1;
+}
+
+.texto2{
+    @extend .geralCourier;
+    color: $cor1;
+    font-size: $tamanho2;
+}
+
+.texto3{
+    @extend .geralCourier2;
+    color: $cor2;
+    font-size: $tamanho2;
+}
